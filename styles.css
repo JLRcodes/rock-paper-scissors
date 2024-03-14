@@ -1,7 +1,62 @@
 * {
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(199, 199, 199);
+}
 
+.container {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+}
+
+.you,
+.computer,
+.btn {
+  font-size: 2rem;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.results {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.result-score {
+  margin-left: 0.1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.result-selection {
+  opacity: 0.5;
+  font-size: 2.5rem;
+}
+
+.result-selection.winner {
+  opacity: 1;
+  fonst-size: 5rem;
+}
