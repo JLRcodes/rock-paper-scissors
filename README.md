@@ -5,3 +5,7 @@ Rock paper scissors is an intransitive hand game, usually played between two peo
 In rock, paper, scissors - Rock beats scissors Paper beats rock Scissors beats paper
 
 This game you play against the computer five times to see who the winner is.
+
+## Revisiting rock-paper-scissors 
+
+Adding a gui to the rps game
