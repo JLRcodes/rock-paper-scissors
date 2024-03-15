@@ -6,6 +6,8 @@ In rock, paper, scissors - Rock beats scissors Paper beats rock Scissors beats p
 
 This game you play against the computer five times to see who the winner is.
 
-## Revisiting rock-paper-scissors 
+## Revisiting rock-paper-scissors
 
 Adding a gui to the rps game
+
+Reworked the javascript code, kept the other code in comments

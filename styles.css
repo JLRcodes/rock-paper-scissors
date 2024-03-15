@@ -1,25 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: rgb(199, 199, 199);
 }
 
 .container {
-  border: 1px solid red;
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 125px;
-}
-
-.you,
-.computer,
-.btn {
-  font-size: 2rem;
 }
 
 button {
@@ -31,6 +16,7 @@ button {
   outline: none;
   cursor: pointer;
   transition: 100ms;
+  font-size: 2rem;
 }
 
 .btn:hover {
@@ -43,6 +29,7 @@ button {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .result-score {
@@ -53,10 +40,9 @@ button {
 
 .result-selection {
   opacity: 0.5;
-  font-size: 2.5rem;
 }
 
 .result-selection.winner {
   opacity: 1;
-  fonst-size: 5rem;
+  font-size: 2.5rem;
 }
